@@ -1,0 +1,6 @@
+ {
+	 "id":new Date(),
+	 "userId":"{{Input1.text}}",
+	 "title":"{{Input2.text}}",
+	 "body":"{{Input3.text}}"
+ }

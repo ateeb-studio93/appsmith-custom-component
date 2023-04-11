@@ -1,0 +1,3 @@
+UPDATE users
+  SET status = 'APPROVED'
+  WHERE id = {{ this.usersTable.selectedRow.id || 1}};
